@@ -1,0 +1,12 @@
+@import url('../../../tailwind.css');
+
+@layer components {
+    .Icons-parent {
+        @apply h-[15px] w-[15px];
+
+    }
+
+    .Icons-parent img {
+        @apply w-full h-full object-contain;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('../../../tailwind.css');
+
+@layer components {
+    .Annual-returnsText {
+        @apply text-3xl font-bold text-[#10b955];
+    }
+
+    .benchmartk-returnsText {
+        @apply text-xl font-bold text-[black];
+
+    }
+
+    .schemefooter-text {
+        @apply text-[#6d6e71] text-[13px] text-center;
+    }
+
+    .subtext-scheme,
+    .popup-scheme-header {
+        @apply text-[black] text-base;
+
+    }
+
+    .popup-scheme-header {
+        @apply font-[bold] text-xl;
+
+    }
+
+    .scheme-locked {
+        @apply font-[bold] text-[#97144D] mt-[20%];
+    }
+
+    .schemepopupfooter span {
+
+        @apply text-[#97144D] font-[bold] text-lg;
+
+    }
+}

@@ -1,0 +1,21 @@
+@import url('../../../tailwind.css');
+@layer components {
+    
+    .navbutton {
+        @apply bg-[#97144D] text-[white] border-[none];
+    }
+    
+    .navbutton:hover {
+        cursor: pointer;
+    
+    }
+    .schemecard {
+        @apply text-[#97144D] w-6/12 px-[2%] py-[1.5%] border-[none];;
+    }
+    
+    .popupbtn {
+        @apply w-[175px] bg-[#97144D] opacity-30 text-[white] mb-[2%] p-[3%] rounded-[14px];
+    
+    }
+
+}

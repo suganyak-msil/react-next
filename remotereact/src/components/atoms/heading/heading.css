@@ -1,0 +1,11 @@
+@import url('../../../tailwind.css');
+@layer components {
+    .header {
+        @apply text-[#97144D] text-lg font-[sans-serif] font-bold;
+    }
+    
+    .subheader {
+        color: #97144D;
+    
+    }
+}

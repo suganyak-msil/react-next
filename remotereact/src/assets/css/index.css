@@ -1,0 +1,66 @@
+
+/* ================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  user-select: none;
+}
+
+
+/* ================================================ */
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+/* =================================================== */
+
+/* Scroll bar */
+
+::-webkit-scrollbar-track {
+  /* box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); */
+  width: 4px;
+  /* border: inset; */
+  border-radius: 4px;
+  background-color: #F4F4F8;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+  background-color: rgba(245, 245, 245, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 4px;
+  border-radius: 4px;
+  /* box-shadow: 0 0 6px rgba(0, 0, 0, .3); */
+  background-color: #5586c2;
+}
+
+/* =================================================== */

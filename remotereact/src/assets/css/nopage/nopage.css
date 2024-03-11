@@ -1,0 +1,11 @@
+/* ================================================ */
+/* No Page */
+
+@layer components {
+  .no-page {
+    @apply w-full h-full bg-[#F6F7FB] text-[#0E325D] text-[42px] font-light flex justify-center items-center;
+  }
+}
+
+  
+  

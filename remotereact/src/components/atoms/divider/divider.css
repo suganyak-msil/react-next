@@ -1,0 +1,7 @@
+@import url('../../../tailwind.css');
+@layer components {
+    .dynamic-hr {
+        @apply h-0.5 bg-[black] w-full mx-0 my-5;
+    }
+}
+

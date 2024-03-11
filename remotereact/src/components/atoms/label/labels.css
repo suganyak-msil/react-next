@@ -1,0 +1,19 @@
+@import url('../../../tailwind.css');
+@layer components {
+    .lbl-form-title {
+        @apply rounded-b-lg shadow-md;
+    }
+
+    .lbl-form-error {
+        @apply text-3xl font-bold mb-6;
+    }
+    
+    .lbl-form-suggestion {
+        @apply text-3xl font-bold mb-6;
+    }
+
+    .error-txt {
+        @apply text-[red] text-[10px];
+    }
+
+}

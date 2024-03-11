@@ -1,0 +1,41 @@
+@import url('../../../../tailwind.css');
+
+@layer components {
+    .mf-m-filled-textfield {
+        @apply relative overflow-visible cursor-text transition-all duration-[0.3s] border-[none] border-b;
+    }
+    
+    .mf-m-filled-textfield>input {
+        @apply w-full h-full text-inherit font-[inherit] mt-2.5 p-0 bg-transparent outline-none border-none;
+    }
+    
+    .mf-m-filled-textfield>.input-label {
+        @apply absolute top-[calc(50%_-_10px)] text-[#a7a7a7] cursor-text bg-inherit select-none origin-[0_0] transition-all duration-[0.3s] whitespace-nowrap overflow-hidden max-w-[calc(100%_-_20px)] left-4;
+    }
+    
+    .mf-m-filled-textfield>.input-label.up,
+    .mf-m-filled-textfield>input:focus~.input-label {
+        @apply transition-all duration-[0.3s] max-w-[unset] px-2 py-0 scale-[0.8] left-2 top-1;
+    }
+
+    .mftb-primary{
+        @apply w-60 text-[rgb(18,18,18)] bg-neutral-100 text-base font-[normal] not-italic whitespace-normal text-left overflow-hidden pt-2 pb-0 px-4 rounded-[4px_4px_0px_0px] border-b-[rgb(218_218_218)] border-b border-solid;
+    }
+
+    .mftb-primary>input:focus~.input-label {
+        @apply text-[#6200ee];
+    }
+    
+    .mftb-primary:focus-within {
+        @apply border-[#6200ee];
+    }
+} 
+
+
+/* ============================================================ */
+/* MFilledTextbox */
+
+
+
+
+

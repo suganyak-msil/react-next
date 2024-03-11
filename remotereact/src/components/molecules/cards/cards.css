@@ -1,0 +1,32 @@
+@import url('../../../tailwind.css');
+@layer components {
+    .headerwithicons-parent {
+        @apply flex flex-row justify-between border-[#6200ee];
+    }
+    
+    .schemecard-footer-buttons {
+        @apply flex justify-between mt-[2%];
+    }
+    
+    .schemecard-parent {
+        @apply flex flex-row justify-between;
+    }
+    
+    .schemecard-return-parent {
+        @apply flex flex-col;
+    }
+    
+    .schemecard-button-right {
+        @apply bg-[#FFD0EC] rounded-br-[10px];
+    }
+    
+    .schemecard-button-left {
+        @apply bg-[#E3E1D9] rounded-bl-[10px];
+    
+    }
+    
+    .popupscheme-input {
+        @apply m-[2%];
+    }
+}
+

@@ -1,0 +1,16 @@
+@import url('../../../tailwind.css');
+
+@layer components {
+    .navbar-parent {
+        @apply flex flex-row justify-around bg-[#97144D] px-[0%] py-[1%];
+    }
+    
+    .navbar-logo {
+        @apply w-[30%];
+    }
+    
+    .navbar-menu {
+        @apply w-3/5 flex justify-between;
+    }
+}
+

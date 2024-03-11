@@ -1,0 +1,7 @@
+@import url('../../../tailwind.css');
+
+@layer components {
+    .schemecard-group {
+        @apply flex flex-row justify-around mt-[5%]
+    }
+}
